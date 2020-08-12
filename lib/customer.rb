@@ -20,7 +20,7 @@ class Customer
   end
   def waiters
     self.meals.map do |meal|
-      self.waiter
+      meal.waiter
     end
   end
   
