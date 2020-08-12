@@ -18,7 +18,7 @@ class Customer
       meal.customer == self
     end
   end
-  def 
+  def waiter
     
   end
   
