@@ -19,7 +19,9 @@ class Customer
     end
   end
   def waiter
-    
+    self.meals.map do |meal|
+      self.waiter
+    end
   end
   
 end
